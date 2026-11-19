@@ -11,7 +11,9 @@ const app = express();
 
 app.use(cors());
 app.use(express.json());
-
+app.get("/", (req, res) => {
+  res.send("Leave Management Backend Server Running Successfully!");
+});
 // Check MongoDB URI
 console.log(
   process.env.MONGODB_URI
