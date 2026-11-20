@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import "./App.css";
 
-const API = "https://leave-management-system-j0sb.onrender.com/";
+const API = "https://leave-management-system-j0sb.onrender.com/leaves";
 
 function App() {
   const [leaves, setLeaves] = useState([]);
